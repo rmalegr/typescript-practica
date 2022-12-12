@@ -12,5 +12,9 @@ const multiplicar = (
 ) => {
   console.log(textImprimir, numero1 * numero2);
 };
+console.log(multiplicar(5, 7, 'Producto'));
+let tuplas: [string, Number] = ['rodrigo', 36];
 
-multiplicar('el resultado es ', 5, 7);
+let arregloNumeros: string[] = ['Peres'];
+
+console.log(arregloNumeros);
